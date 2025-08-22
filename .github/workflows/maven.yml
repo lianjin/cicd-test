@@ -2,7 +2,7 @@ name: sonar scan
 
 on:
   workflow_run:
-    workflows: [ "Maven Package" ]
+    workflows: [ "Maven Package1" ]
 
 jobs:
   sonar:
